@@ -33,10 +33,15 @@ public:
     QHBoxLayout* buttons_layout;
     QPushButton* exit;
     QPushButton* enter;
+    //////////////////
+    QString f0;
+    QString f1;
+    QMap<QString, QString> login_info;
 
 
 
-
+public slots:
+    void login_check();
 };
 
 #endif // MAINWINDOW_H
